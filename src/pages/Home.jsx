@@ -38,17 +38,6 @@ function Home() {
         <div className="hero-scribble" aria-hidden="true">good things grow<br />when we share <span>↗</span></div>
       </section>
 
-      <section className="impact-strip" aria-label="SharePlate impact">
-        <div className="impact-intro">
-          <span className="eyebrow">SMALL ACTS, BIG IMPACT</span>
-          <p>Every shared plate<br />moves us forward.</p>
-        </div>
-        <div className="impact-stat"><strong>{12 + foods.length * 3}</strong><span>meals shared</span></div>
-        <div className="impact-stat"><strong>{5 + foods.length}</strong><span>local food heroes</span></div>
-        <div className="impact-stat"><strong>{8 + foods.length * 2}<small>kg</small></strong><span>food saved</span></div>
-        <span className="impact-spark" aria-hidden="true">✳</span>
-      </section>
-
       <section className="content-section featured-section">
         <div className="section-heading">
           <div>

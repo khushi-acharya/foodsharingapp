@@ -1,6 +1,6 @@
 # SharePlate
 
-SharePlate is a React web app concept for sharing surplus food with neighbors. It includes a landing page and impact summary, food discovery with search and category filters, a validated donation form, food details and pickup reservations, and a community profile.
+SharePlate is a React web app concept for sharing surplus food with neighbors. It includes a landing page, a separate demo sign-in and dashboard, food discovery with search and category filters, a validated donation form, food details and pickup reservations, and a community profile.
 
 ## Run it locally
 
@@ -18,7 +18,7 @@ npm run build
 npm run lint
 ```
 
-Listings and reservations are stored in the current browser using `localStorage`. The app is a front-end prototype: it does not yet have accounts, a server/database, live maps, or real notifications. The sample food listings and impact numbers are demo content.
+Listings, reservations, and the demo sign-in session are stored in the current browser using `localStorage`. The `/login` page accepts any valid email and a password of at least six characters, but it does not verify credentials, create accounts, or provide secure authentication. The dashboard is a front-end demo; its community impact numbers are illustrative. The app does not yet have a server/database, live maps, or real notifications.
 
 ## Team work split
 
